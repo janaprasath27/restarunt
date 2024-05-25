@@ -1,0 +1,82 @@
+body{
+    background-image: url(images/home/res.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.bar{
+    background-color:rgb(202, 180, 148,0.5);
+    width: 75%;
+    height: 150px;
+    padding-left: 20px;
+    margin: 20px auto 100px;
+    display: grid;
+    border-radius: 100px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.in{
+    position: absolute;
+    top: 5px;
+  }
+  .out{
+    position: relative;
+  }
+  .home{
+    padding-left: 30px;
+    font-family: cursive;
+    color: #433E0E;
+    font-size: 30px;
+  }
+  .home:hover{
+    font-size: 40px;
+    color: rgb(22, 17, 17,0.5);
+  }
+
+
+
+
+
+  .gelary{
+    margin: -80px 100px 30px 40px;
+    display: flex;
+    gap: 1rem;
+    height: 500px;
+    width: 95%;
+}
+.gelary>div{
+    flex: 1;
+    transition: all 1s;
+    border-radius: 30px;
+}
+.gelary>div:nth-child(1){
+    background: url("images/home/about-abs-image.jpg") round;
+    background-position: cover;
+    background-size:cover;
+}
+.gelary>div:nth-child(2){
+    background: url("images/home/about-banner.jpg");
+    background-position: center;
+    background-size: cover;
+}.gelary>div:nth-child(3){
+    background: url("images/home/event-1.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.gelary>div:nth-child(4){
+    background: url("images/home/res.jpg");
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.gelary>div:hover{
+    flex: 4;
+}
+
+
+
+
+
+
+

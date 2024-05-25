@@ -1,0 +1,88 @@
+body{
+    background-image: url(images/home/res1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+.bar{
+    background-color:rgb(202, 180, 148,0.5);
+    width: 75%;
+    height: 150px;
+    padding-left: 20px;
+    margin: 20px auto 100px;
+    display: grid;
+    border-radius: 100px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.in{
+    position: absolute;
+    top: 5px;
+  }
+  .out{
+    position: relative;
+  }
+  .home{
+    padding-left: 30px;
+    font-family: cursive;
+    color: #433E0E;
+    font-size: 30px;
+  }
+  .home:hover{
+    font-size: 40px;
+    color: rgb(22, 17, 17,0.5);
+  }
+
+.main{
+    width: 600px;
+    background-color: rgba(71, 67, 67, 0.5);
+    color:white;
+    margin: 10px auto;
+    padding: 10px 10px 30px;
+    text-align: center;
+    font-size: 35px;
+}
+.main h1{
+    text-align: center;
+    color: #f5ea8b;
+}
+.main input{
+    border-radius: 8px;
+    text-align: center;
+    height: 30px;
+   background-color: rgb(203, 195, 195,0.5);
+}
+::placeholder{
+    font-family: cursive;
+    color: black;
+}
+.main input:hover{
+    height: 40px;
+    width: 200px;
+}
+.main select{
+    background-color: rgb(203, 195, 195,0.5);
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+}
+.main select:hover{
+    height: 40px;
+    width:250px ;
+}
+.main label{
+    padding: 10px 10px 10px;
+}
+.main button{
+    font-family:cursive;
+    padding: 5px 5px ;
+    font-size: 25px;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-color: rgb(12, 9, 9,0.5);
+    background-color:#BFDCB7;
+    color: #6C4441;
+}
+.main button:hover{
+    font-size: 30px;
+}
